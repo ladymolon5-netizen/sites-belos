@@ -3,11 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio da Arte</title>
+    <title>Início da Arte</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #0a0a0f;
+            color: white;
+        }
+
+        /* HEADER FIXO */
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: #111122;
+            padding: 15px 0;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 255, 0.4);
+            z-index: 1000;
+        }
+
+        header h2 {
+            margin: 0;
+            color: #4da6ff;
+            letter-spacing: 2px;
+        }
+
+        /* CONTEÚDO */
+        .container {
+            margin-top: 120px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 40px;
+            color: #cce6ff;
+        }
+
+        /* BOTÃO ESTILIZADO */
+        a {
+            display: inline-block;
+            padding: 15px 40px;
+            background: linear-gradient(45deg, #0066ff, #00ccff);
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 30px;
+            transition: 0.3s;
+            box-shadow: 0 0 15px rgba(0, 102, 255, 0.6);
+        }
+
+        a:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 25px rgba(0, 204, 255, 0.9);
+        }
+
+        /* DETALHE DE FUNDO */
+        body::before {
+            content: "";
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at center, rgba(0, 102, 255, 0.15), transparent 70%);
+            z-index: -1;
+        }
+
+    </style>
 </head>
 <body>
-    <h1>Explore os meus maiores orgulhos:</h1>
 
-    <a href="oceano/index.html">Oceano</a>
+    <header>
+        <h2>✨ Minha Arte</h2>
+    </header>
+
+    <div class="container">
+        <h1>Explore os meus maiores orgulhos:</h1>
+
+        <a href="oceano/index.html">🌊 Oceano</a>
+    </div>
+
 </body>
 </html>
