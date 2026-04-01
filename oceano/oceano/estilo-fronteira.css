@@ -57,3 +57,15 @@ body {
             color: #7fd3e6;
         }
 
+        .menu-links a {
+            color: #4cc9f0; /*vai personalizar apenas o que estiver no div*/
+            margin-left: 20px;
+            transition: 0.3s;
+            padding: 5px;
+            border-radius: 5px;
+            text-decoration: none; /*sem sublinhado*/
+        }
+
+        .menu-links a:hover {
+            background-color: #031c2b;
+        }
