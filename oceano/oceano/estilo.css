@@ -169,9 +169,6 @@
             color: #357c8b; 
         }
 
-        .menu-links {
-            background-color: #273f4b;
-        }
         .menu-links a {
             color: #4cc9f0; /*vai personalizar apenas o que estiver no div*/
             margin-left: 20px;
