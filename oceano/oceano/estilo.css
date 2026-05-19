@@ -65,6 +65,10 @@
             text-align: justify;
         }
 
+        .texto-header {
+            text-align: center;
+        }
+
         /* Escurecer a imagem ao passar o mouse e mostrar o nome*/
 
         .contrair {
